@@ -2420,6 +2420,48 @@
       background: rgba(34,211,238,.1);
       border-color: rgba(34,211,238,.22);
     }
+
+    /* Tertiary (emerald-green) experience variant */
+    .exp-timeline-dot--tertiary {
+      background: #10b981;
+      box-shadow: 0 0 0 3px #10b981, 0 0 16px rgba(16,185,129,.4);
+    }
+    .exp-card-inner--tertiary {
+      border-left-color: #10b981;
+    }
+    .exp-card-inner--tertiary:hover {
+      box-shadow: 0 20px 50px rgba(16,185,129,.15);
+      border-left-color: #34d399;
+    }
+    .exp-type-badge--tertiary {
+      background: rgba(16,185,129,.12);
+      color: #34d399;
+      border-color: rgba(16,185,129,.3);
+    }
+    .exp-project-banner--tertiary {
+      background: rgba(16,185,129,.07);
+      border-color: rgba(16,185,129,.18);
+    }
+    .exp-project-banner--tertiary strong { color: #a7f3d0; }
+    .exp-cert-id--tertiary {
+      color: #10b981;
+      background: rgba(16,185,129,.1);
+      border-color: rgba(16,185,129,.22);
+    }
+    .exp-card-inner--tertiary .exp-achievements li::before {
+      background: #10b981;
+      box-shadow: 0 0 6px rgba(16,185,129,.5);
+    }
+    .exp-tag--tertiary {
+      background: rgba(16,185,129,.09);
+      color: #34d399;
+      border-color: rgba(16,185,129,.22);
+    }
+    .exp-tag--tertiary:hover {
+      background: rgba(16,185,129,.2);
+      color: #a7f3d0;
+    }
+
     /* ── Responsive ── */
     @media (max-width: 768px) {
       .exp-timeline { padding-left: 28px; }
@@ -3246,6 +3288,57 @@
               </div>
             </div>
           </div>
+          <!-- ── Experience Card 3: MERN Stack Intern @ Webstack Academy ── -->
+          <div class="exp-card">
+            <div class="exp-timeline-dot exp-timeline-dot--tertiary"></div>
+            <div class="exp-card-inner exp-card-inner--tertiary">
+              <div class="exp-card-top">
+                <div class="exp-role-block">
+                  <div class="exp-role-title">MERN Stack Development Intern</div>
+                  <div class="exp-company-row">
+                    <svg class="exp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M3 7v14M21 7v14M9 21V11h6v10"/><rect x="3" y="3" width="18" height="4" rx="1"/></svg>
+                    <span class="exp-company">Webstack Academy (WSA)</span>
+                    <span class="exp-separator">&middot;</span>
+                    <span class="exp-type-badge exp-type-badge--tertiary">Online Internship</span>
+                  </div>
+                </div>
+                <div class="exp-meta-block">
+                  <div class="exp-date-badge">
+                    <svg class="exp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    3 Jun 2026 &ndash; 3 Jul 2026
+                  </div>
+                  <div class="exp-location-badge">
+                    <svg class="exp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Bangalore, India
+                  </div>
+                </div>
+              </div>
+
+              <div class="exp-project-banner exp-project-banner--tertiary">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                Project: <strong>Food Genie &mdash; AI Food Ordering App</strong>
+                <span class="exp-cert-id exp-cert-id--tertiary">ID: WMSI26_007</span>
+              </div>
+
+              <ul class="exp-achievements">
+                <li>Developed &ldquo;Food Genie,&rdquo; an AI-powered food ordering application using the MERN stack, featuring smart menu recommendations and seamless order management.</li>
+                <li>Implemented dynamic React.js UI with real-time cart updates, user authentication via JWT, and an intuitive multi-step checkout flow.</li>
+                <li>Built robust backend REST APIs with Node.js/Express and designed MongoDB schemas for menu items, users, and order history with optimized queries.</li>
+                <li>Completed 4-week online internship at Webstack Academy, clearing all evaluations (attendance, quizzes &amp; project report) to earn the Certificate of Internship.</li>
+              </ul>
+
+              <div class="exp-tech-stack">
+                <span class="exp-tag exp-tag--tertiary">MongoDB</span>
+                <span class="exp-tag exp-tag--tertiary">Express.js</span>
+                <span class="exp-tag exp-tag--tertiary">React.js</span>
+                <span class="exp-tag exp-tag--tertiary">Node.js</span>
+                <span class="exp-tag exp-tag--tertiary">AI Integration</span>
+                <span class="exp-tag exp-tag--tertiary">JWT Auth</span>
+                <span class="exp-tag exp-tag--tertiary">REST API</span>
+                <span class="exp-tag exp-tag--tertiary">Git</span>
+              </div>
+            </div>
+          </div>
 
         </div><!-- /.exp-timeline -->
         </div><!-- /.exp-timeline -->
@@ -3892,6 +3985,105 @@
                 Hands-on training in sensor interfacing, microcontroller programming, embedded communication protocols, and cloud IoT telemetry.
               </div>
             </div>
+
+          <!-- Cert 9: Emertxe MERN Stack Internship -->
+          <div class="cert-card">
+            <div class="cert-badge-ribbon ribbon-elite">
+              <span>Internship Cert</span>
+            </div>
+
+            <div class="cert-issuer-row">
+              <div class="cert-issuer-icon" style="color: #6366f1;">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                </svg>
+              </div>
+              <div class="cert-issuer-meta">
+                <span class="cert-issuer-name">Emertxe Information Technologies</span>
+                <span class="cert-category-sub">Affiliated with NSDC &amp; ESSI &bull; Bangalore</span>
+              </div>
+            </div>
+
+            <h3 class="cert-title">MERN Stack Development &mdash; HomelyHub Project</h3>
+
+            <div class="cert-score-box">
+              <div class="cert-score-title">Full-Stack Web Development</div>
+              <div class="cert-score-detail">
+                Successfully completed online internship on MERN Stack and demonstrated practical implementation skills through the <strong>HomelyHub &mdash; Property Booking Platform</strong> project.
+              </div>
+            </div>
+
+            <div class="cert-meta-footer">
+              <span class="cert-date-issued">Aug 12 &ndash; Sep 16, 2026</span>
+              <span class="cert-id-tag">ID: WMSI26_008</span>
+            </div>
+          </div>
+
+          <!-- Cert 10: Emertxe IoT Internship -->
+          <div class="cert-card">
+            <div class="cert-badge-ribbon ribbon-elite">
+              <span>Internship Cert</span>
+            </div>
+
+            <div class="cert-issuer-row">
+              <div class="cert-issuer-icon" style="color: #22d3ee;">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>
+                </svg>
+              </div>
+              <div class="cert-issuer-meta">
+                <span class="cert-issuer-name">Emertxe Information Technologies</span>
+                <span class="cert-category-sub">Affiliated with NSDC &amp; ESSI &bull; Bangalore</span>
+              </div>
+            </div>
+
+            <h3 class="cert-title">Internet of Things (IoT) &mdash; EV Optimizer Project</h3>
+
+            <div class="cert-score-box">
+              <div class="cert-score-title">Embedded IoT &amp; Edge AI</div>
+              <div class="cert-score-detail">
+                Successfully completed online internship on IoT and demonstrated practical implementation skills through the <strong>Edge AI Based Smart EV Charging Station Optimizer</strong> project.
+              </div>
+            </div>
+
+            <div class="cert-meta-footer">
+              <span class="cert-date-issued">Aug 10 &ndash; Sep 16, 2026</span>
+              <span class="cert-id-tag">ID: EI26_017</span>
+            </div>
+          </div>
+
+          <!-- Cert 11: Webstack Academy MERN Stack Internship -->
+          <div class="cert-card">
+            <div class="cert-badge-ribbon ribbon-elite">
+              <span>Internship Cert</span>
+            </div>
+
+            <div class="cert-issuer-row">
+              <div class="cert-issuer-icon" style="color: #10b981;">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                </svg>
+              </div>
+              <div class="cert-issuer-meta">
+                <span class="cert-issuer-name">Webstack Academy (WSA)</span>
+                <span class="cert-category-sub">Emertxe Group &bull; Bangalore</span>
+              </div>
+            </div>
+
+            <h3 class="cert-title">MERN Stack Development &mdash; Food Genie Project</h3>
+
+            <div class="cert-score-box">
+              <div class="cert-score-title">Full-Stack Web Development</div>
+              <div class="cert-score-detail">
+                Successfully completed 4-week online internship on MERN Stack and demonstrated practical skills through the <strong>Food Genie &mdash; AI Food Ordering App</strong> project.
+              </div>
+            </div>
+
+            <div class="cert-meta-footer">
+              <span class="cert-date-issued">Jun 3 &ndash; Jul 3, 2026</span>
+              <span class="cert-id-tag">ID: WMSI26_007</span>
+            </div>
+          </div>
           </div>
 
         </div>
