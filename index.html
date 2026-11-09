@@ -2382,6 +2382,44 @@
       color: #cffafe;
     }
 
+
+    /* Experience project banner */
+    .exp-project-banner {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      background: rgba(99,102,241,.08);
+      border: 1px solid rgba(99,102,241,.2);
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 18px;
+      font-size: .82rem;
+      color: #94a3b8;
+    }
+    .exp-project-banner strong { color: #c7d2fe; }
+    .exp-project-banner--secondary {
+      background: rgba(34,211,238,.07);
+      border-color: rgba(34,211,238,.18);
+    }
+    .exp-project-banner--secondary strong { color: #cffafe; }
+    .exp-cert-id {
+      margin-left: auto;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .05em;
+      color: #6366f1;
+      background: rgba(99,102,241,.12);
+      padding: 2px 8px;
+      border-radius: 12px;
+      border: 1px solid rgba(99,102,241,.25);
+      white-space: nowrap;
+    }
+    .exp-project-banner--secondary .exp-cert-id {
+      color: #22d3ee;
+      background: rgba(34,211,238,.1);
+      border-color: rgba(34,211,238,.22);
+    }
     /* ── Responsive ── */
     @media (max-width: 768px) {
       .exp-timeline { padding-left: 28px; }
@@ -3105,97 +3143,111 @@
 
         <div class="exp-timeline">
 
-          <!-- ── Experience Card 1 ── -->
+          <!-- ── Experience Card 1: MERN Stack Intern @ Emertxe ── -->
           <div class="exp-card">
             <div class="exp-timeline-dot"></div>
             <div class="exp-card-inner">
               <div class="exp-card-top">
                 <div class="exp-role-block">
-                  <div class="exp-role-title">Full-Stack Web Development Intern</div>
+                  <div class="exp-role-title">MERN Stack Development Intern</div>
                   <div class="exp-company-row">
                     <svg class="exp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M3 7v14M21 7v14M9 21V11h6v10"/><rect x="3" y="3" width="18" height="4" rx="1"/></svg>
-                    <span class="exp-company">Sonai Enterprises</span>
-                    <span class="exp-separator">·</span>
-                    <span class="exp-type-badge">Internship</span>
+                    <span class="exp-company">Emertxe Information Technologies</span>
+                    <span class="exp-separator">&middot;</span>
+                    <span class="exp-type-badge">Online Internship</span>
                   </div>
                 </div>
                 <div class="exp-meta-block">
                   <div class="exp-date-badge">
                     <svg class="exp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-                    June 2025 – August 2025
+                    12 Aug 2026 &ndash; 16 Sep 2026
                   </div>
                   <div class="exp-location-badge">
                     <svg class="exp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                    Chhatrapati Sambhajinagar, India
+                    Bangalore, India
                   </div>
                 </div>
               </div>
 
+              <div class="exp-project-banner">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                Project: <strong>HomelyHub &mdash; Property Booking Platform</strong>
+                <span class="exp-cert-id">ID: WMSI26_008</span>
+              </div>
+
               <ul class="exp-achievements">
-                <li>Designed and deployed dynamic, responsive web interfaces using modern frontend frameworks, improving UX across customer-facing portals.</li>
-                <li>Engineered scalable RESTful API endpoints and optimized MongoDB database schemas, reducing average query response time by 40%.</li>
-                <li>Automated workflow pipelines and containerized deployment services using Docker and custom shell scripts, cutting deployment time significantly.</li>
-                <li>Collaborated with business stakeholders to translate requirements into production-ready features, participating in agile sprint reviews.</li>
+                <li>Built a full-stack property booking platform (HomelyHub) using the MERN stack, implementing user authentication, property listings, and booking workflows end-to-end.</li>
+                <li>Designed a responsive React.js frontend with dynamic filtering, search, and real-time availability checks, delivering a seamless cross-device UX.</li>
+                <li>Engineered RESTful API endpoints with Express.js and optimized MongoDB schemas using Mongoose, achieving efficient data retrieval for large property datasets.</li>
+                <li>Cleared Emertxe&apos;s internship evaluation process (attendance, quizzes &amp; project report), earning a Certificate of Internship affiliated with NSDC &amp; ESSI.</li>
               </ul>
 
               <div class="exp-tech-stack">
+                <span class="exp-tag">MongoDB</span>
+                <span class="exp-tag">Express.js</span>
                 <span class="exp-tag">React.js</span>
                 <span class="exp-tag">Node.js</span>
-                <span class="exp-tag">Express.js</span>
-                <span class="exp-tag">MongoDB</span>
                 <span class="exp-tag">REST API</span>
-                <span class="exp-tag">Docker</span>
+                <span class="exp-tag">Mongoose</span>
+                <span class="exp-tag">JWT Auth</span>
                 <span class="exp-tag">Git</span>
-                <span class="exp-tag">Tailwind CSS</span>
               </div>
             </div>
           </div>
 
-          <!-- ── Experience Card 2 ── -->
+          <!-- ── Experience Card 2: IoT Intern @ Emertxe ── -->
           <div class="exp-card">
             <div class="exp-timeline-dot exp-timeline-dot--secondary"></div>
             <div class="exp-card-inner exp-card-inner--secondary">
               <div class="exp-card-top">
                 <div class="exp-role-block">
-                  <div class="exp-role-title">IoT & Software Engineering Intern</div>
+                  <div class="exp-role-title">IoT &amp; Embedded Systems Intern</div>
                   <div class="exp-company-row">
                     <svg class="exp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
-                    <span class="exp-company">Research & Innovation Lab</span>
-                    <span class="exp-separator">·</span>
-                    <span class="exp-type-badge exp-type-badge--secondary">Academic Project</span>
+                    <span class="exp-company">Emertxe Information Technologies</span>
+                    <span class="exp-separator">&middot;</span>
+                    <span class="exp-type-badge exp-type-badge--secondary">Online Internship</span>
                   </div>
                 </div>
                 <div class="exp-meta-block">
                   <div class="exp-date-badge">
                     <svg class="exp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-                    Jan 2025 – May 2025
+                    10 Aug 2026 &ndash; 16 Sep 2026
                   </div>
                   <div class="exp-location-badge">
                     <svg class="exp-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                    Latur, Maharashtra, India
+                    Bangalore, India
                   </div>
                 </div>
               </div>
 
+              <div class="exp-project-banner exp-project-banner--secondary">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+                Project: <strong>Edge AI Based Smart EV Charging Station Optimizer</strong>
+                <span class="exp-cert-id">ID: EI26_017</span>
+              </div>
+
               <ul class="exp-achievements">
-                <li>Developed microservices and backend modules for real-time IoT sensor data monitoring using MQTT protocol and WebSocket streams.</li>
-                <li>Built an Edge AI pipeline integrating YOLO-based object detection models on Raspberry Pi for low-latency inference at the device level.</li>
-                <li>Collaborated with cross-functional engineering teams to implement production-level features and authored comprehensive API documentation.</li>
+                <li>Developed an Edge AI-powered Smart EV Charging Station Optimizer using IoT sensors and embedded programming for real-time load management and optimization.</li>
+                <li>Implemented core Embedded IoT Programming with hands-on experience in sensor interfacing, hardware integration, and firmware-level optimization techniques.</li>
+                <li>Gained deep expertise in Embedded / Electronics / IoT domains through Emertxe&apos;s structured curriculum, affiliated with NSDC (National Skill Development Corporation).</li>
+                <li>Successfully cleared internship evaluations (attendance, quizzes &amp; project report), earning both an Offer Letter and Certificate of Internship from Emertxe.</li>
               </ul>
 
               <div class="exp-tech-stack">
+                <span class="exp-tag">IoT</span>
+                <span class="exp-tag">Embedded C</span>
+                <span class="exp-tag">Edge AI</span>
+                <span class="exp-tag">Sensor Integration</span>
+                <span class="exp-tag">EV Systems</span>
+                <span class="exp-tag">NSDC Certified</span>
                 <span class="exp-tag">Python</span>
-                <span class="exp-tag">Raspberry Pi</span>
-                <span class="exp-tag">MQTT</span>
-                <span class="exp-tag">OpenCV</span>
-                <span class="exp-tag">YOLOv8</span>
-                <span class="exp-tag">WebSocket</span>
-                <span class="exp-tag">FastAPI</span>
-                <span class="exp-tag">SQLite</span>
+                <span class="exp-tag">Hardware Interfacing</span>
               </div>
             </div>
           </div>
 
+        </div><!-- /.exp-timeline -->
         </div><!-- /.exp-timeline -->
       </div>
     </section>
