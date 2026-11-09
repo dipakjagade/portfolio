@@ -14,10 +14,16 @@ Built with semantic **HTML5**, modern **CSS3** (custom dark tech design system w
   - **B.Tech (ECE)**: CSMSS Chh. Shahu College of Engineering (7.16 CGPA &bull; Sem 7 &bull; Expected May 2027)
   - **HSC (12th)**: Jayhind Junior College (75.00% &bull; Science Stream)
   - **SSC (10th)**: Varad Vidya Mandir (90.00% &bull; High Distinction)
+- **Internships & Industry Experience**: 5 industry roles detailing responsibilities, stack badges, and verified certificate/offer letter IDs:
+  - **MERN Stack Development Intern** &bull; Emertxe Information Technologies
+  - **Full Stack Web Development Intern** &bull; Sonai Enterprises
+  - **Full Stack Web Development Intern** &bull; Webstack Academy
+  - **Full Stack Development Intern** &bull; CodeOrbit Tech (Batch 3)
+  - **Java Full Stack Intern** &bull; Zaalima Development Pvt. Ltd (Stipend &#8377;6K/mo)
 - **Technical Skills Matrix**: Programming Languages, Web Frameworks, Databases & Cloud, DevOps & Automation.
 - **Featured Repositories**: 6 projects with interactive category filter tabs (Edge AI & Vision, Full-Stack MERN, Automation & Systems) and direct GitHub repository links.
-- **Verified Certifications**: Detailed credentials including IIT Kharagpur NPTEL Elite badges (Java, IoT), Meta Back-End, GeeksforGeeks, and SHL AMCAT Employability certification.
-- **Competitive Coding**: Direct profiles on LeetCode, HackerRank, GeeksforGeeks, and CodeChef.
+- **Verified Certifications**: Detailed credentials including IIT Kharagpur NPTEL Elite badges (Java, IoT), Meta Back-End, GeeksforGeeks, SHL AMCAT, plus verified internship certificates and offer letters.
+- **Competitive Coding Profiles**: 5 platforms including LeetCode, HackerRank, GeeksforGeeks, Naukri Code360, and CodeChef.
 - **Interactive Contact Form**: Real-time client-side vanilla JavaScript input validation and click-to-copy email card.
 
 ---
@@ -59,3 +65,4 @@ Built with semantic **HTML5**, modern **CSS3** (custom dark tech design system w
 - **GitHub**: [github.com/dipakjagade](https://github.com/dipakjagade)
 - **X (Twitter)**: [x.com/dipak_jagade](https://x.com/dipak_jagade)
 - **Email**: dipakjagade2005@gmail.com
+
